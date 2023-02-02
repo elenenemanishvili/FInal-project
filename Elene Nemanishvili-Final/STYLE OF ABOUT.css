@@ -1,0 +1,90 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1 {
+    width: 150px;
+    font-family: 'BPG QuadroSquare Mtavruli';
+
+}
+nav, footer {
+    background-color: rgb(236, 223, 208);
+}
+section{
+    background-color: lavenderblush;}
+    a{
+        text-decoration: none;
+    }
+.nav-links {
+    flex: 1;
+    text-align: right;
+
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 12px;
+    text-decoration: none;
+    font-family: 'BPG QuadroSquare Mtavruli';
+}
+footer{   display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.contact-info {  flex: 1;
+    text-align: right;
+
+}
+.contact-info ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 12px;
+
+}
+.icons {
+    color: black;
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+
+}
+.about {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 20px;
+    list-style: none;
+}
+.about img{
+    width: 400px;
+}
+.about p {
+    font-size: 30px;
+    padding: 20px;
+}
+.for-color a{
+    color: deeppink;
+}
+.fonts {font-family: 'ALK Life';}
+@font-face {
+    font-family: 'BPG QuadroSquare Mtavruli';
+    src: url('fonts/fonts/bpg-quadrosquare-mtavruli-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/fonts/bpg-quadrosquare-mtavruli-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/fonts/bpg-quadrosquare-mtavruli-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/fonts/bpg-quadrosquare-mtavruli-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/fonts/bpg-quadrosquare-mtavruli-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/fonts/bpg-quadrosquare-mtavruli-webfont.svg#bpg_quadrosquare_mtavruliregular') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'ALK Life';
+    src: url('fonts/fonts/alk-life-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/fonts/alk-life-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/fonts/alk-life-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/fonts/alk-life-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/fonts/alk-life-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/fonts/alk-life-webfont.svg#alk_liferegular') format('svg'); /* Legacy iOS */
+}
+
